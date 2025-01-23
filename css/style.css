@@ -405,6 +405,19 @@ section {
   margin-bottom: 1rem;
 }
 
+.icon-about:hover {
+  animation: spin-icon-abt 0.3s linear;
+}
+
+@keyframes spin-icon-abt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .w-head {
   font-size: 1.5rem;              
   color: #ffffff;                 
