@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my personal portfolio website, fully responsive and built with HTML, CSS, and JavaScript. It showcases my frontend development skills and creative projects.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>NITHIN</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+<nav id="desktop-nav">
+    <a href=""><div class="logo">Logo</div></a>
+    <div>
+        <ul class="nav-links">
+            <li><button id="themeToggle">🌙</button></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<nav id="responsive-nav">
+    <div class="logo">Nithin</div>
+    <div class="responsive-nav-menu" onclick="toggleMenu()">
+        <div class="responsive-nav-icon">
+            <i class="fa-solid fa-align-justify toggle-icon"></i>
+            <i class="fa-solid fa-times toggle-icon close-icon"></i>
+        </div>
+        <ul class="menu-links">
+            <li><button id="themeToggleMobile">🌙</button></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+    
+<section id="profile">
+    <div class="pic-section-container">
+        <img data-lazyloaded="1" src="/img/profilepic2.jpg" id="profile1" class="prof-pic" data-src="assets/profile-pic.jpg" alt="profile picture" title="Demo" />
+    </div>
+    <div class="prof-section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="prof-title">NITHIN D ACHARYA</h1>
+        <p class="section-text-p2">Web Developer</p>
+        <div class="btn-container-rc">
+            <a href="" target="_blank" rel="noopener">
+                <button class="btn btn-color-1">
+                    See Resume
+                </button>
+            </a>
+            <a href="#contact" target="_blank" rel="noopener">
+                <button class="btn btn-color-2">
+                    Contact Info
+                </button>
+            </a>
+        </div>
+        <div class="socials-container">
+            <a target="_blank" href="https://www.linkedin.com/in/nithin-acharya-0102ab284" rel="noopener">
+                <img src="img/linkedin.png" alt="My LinkedIn profile" class="icon" />
+            </a>
+            <a target="_blank" href="https://github.com/Nithuach" rel="noopener">
+                <img src="img/github.png" alt="My Github profile" class="icon" />
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <p class="about-text-p1">Get To Know More</p>
+    <h1 class="title-about" id="aboutTitle">About Me</h1>
+    <div class="about-section-container">
+        <div class="about-details-holder">
+            <div class="about-containers">
+                <div class="about-details-start">
+                    <img src="img/workexperience.png" alt="Experience icon" class="icon-about" />
+                    <h3 class="w-head">Work Experience</h3>
+                    <div class="names-container">
+                        <p class="cmp-name">Company namsdfzdfdafadfadfadfadfadfe</p>
+                    </div>
+                    <p> years <br/>aaaaaaaa Developer</p>
+                </div>
+                <div class="about-details-start">
+                    <img src="img/education.png" alt="Education icon" class="icon-about" />
+                    <h3 class="w-head">Work Experience</h3>
+                    <div class="names-container">
+                        <p class="cmp-name">Education afadfdaffasfasfasfname</p>
+                    </div>
+                    <p>Bachelor of Computer Application</p>
+                </div>
+            </div>
+            <div class="about-text-container">
+                <p>
+                    I'm a <span class="highlight">Backend Developer</span> from India with a growing interest in <span class="highlight">Frontend Development</span>. I aim to become a <span class="highlight">Full-Stack Developer</span> in the future. I enjoy solving problems and creating efficient, user-friendly solutions. <br> I have experience building responsive and reliable web applications, and I am improving my skills in frontend design and development. <br> I work well in teams, value communication, and always focus on meeting project goals on time. I enjoy taking on challenges and learning new things to improve my abilities.
+                </p>                
+            </div>
+            <div class="btn-container-download">
+                <a href="" target="_blank" rel="noopener">
+                    <button class="down-btn btn-color-3">
+                        Download Resume
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <p class="exp-text-p1">Iam</p>
+    <h1 class="title-ex">Expertise In</h1>
+    <div class="experience-details-container">
+        <div class="ex-about-containers">
+            <div class="ex-details-container">
+                <h2 class="experience-sub-title">Web Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="img/html.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>HTML5</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/css.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>CSS3</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/js.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/jquery.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>JQuery</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/bootstrap.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Bootstrap</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>                     
+                    <article>
+                      <img src="img/php.png" alt="Experience icon" class="icon" />
+                      <div>
+                        <h3>PHP</h3>
+                        <p class="ex">Experienced</p>
+                      </div>
+                    </article> 
+                    <article>
+                        <img src="img/mysql.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Mysql </h3>
+                            <p class="ex">Experiencedss</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/react.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>React</h3>
+                            <p class="ex">Intermediate</p>
+                        </div>
+                    </article>
+                  <article>
+                        <img src="img/wordpress.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Wordpress</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="ex-details-container">
+                <h2 class="experience-sub-title">Development Tools & Softwares</h2>
+                <div class="article-container">
+                    <article>
+                          <img src="img/vscode.jpg" alt="Experience icon" class="icon" />
+                          <div>
+                            <h3>VS Code</h3>
+                            <p class="ex">Experienced</p>
+                          </div>
+                    </article> 
+                    <article>
+                        <img src="img/mysqlworkbench.png"  alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>MySQL Workbench</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/cpanelwhm.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Cpanel</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/iis.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>IIS Manager</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/sqlyog.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>SQLyog</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                  <article id="lastSkill">
+                        <img src="img/xampp.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>XAMPP</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/figma.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Figma</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="img/canva.jpg" class="icon" />
+                        <div>
+                            <h3>Canva</h3>
+                            <p class="ex">Intermediate</p>
+                        </div>
+                    </article>
+                    <article id="lastSkill">
+                        <img src="img/github.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Github</h3>
+                            <p class="ex">Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <p class="proj-p1">Browse My Recent</p>
+    <h1 class="title-proj">Portfolio Projects</h1>
+    <div class="projects-details-container">
+        <div class="projects-grid">
+            <div class="project-card">
+                <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                    <img src="img/demosite1.png" alt="Project 1" class="project-img" />
+                </a>
+                <h2 class="projects-sub-title">Project 1</h2>
+                <div class="projects-btn-container">
+                    <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                        <button class="project-btn btn-color-4">GitHub</button>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                    <img src="img/demosite1.png" alt="Project 1" class="project-img" />
+                </a>
+                <h2 class="projects-sub-title">Project 1</h2>
+                <div class="projects-btn-container">
+                    <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                        <button class="project-btn btn-color-4">GitHub</button>
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                    <img src="img/demosite1.png" alt="Project 1" class="project-img" />
+                </a>
+                <h2 class="projects-sub-title">Project 1</h2>
+                <div class="projects-btn-container">
+                    <a href="https://nithuach.github.io/demosite/index.html" target="_blank" rel="noopener noreferrer">
+                        <button class="project-btn btn-color-4">GitHub</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact">
+    <p class="contact-p1">Get in Touch</p>
+    <h1 class="contact-title">
+        <span class="dynamic-text">
+            <span>Contact Me</span>
+            <span>Hire Me</span>
+        </span>
+    </h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-item">
+            <div class="contact-icon-container">
+                <i class="fa-regular fa-envelope contact-icon"></i>
+            </div>
+            <p><a target="_blank" href="mailto:nithin271ach@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-item">
+            <div class="contact-icon-container">
+                <i class="fa-brands fa-linkedin-in contact-icon"></i>
+            </div>
+            <p><a target="_blank" href="https://www.linkedin.com/in/nithin-acharya-0102ab284" rel="noopener">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-item">
+            <div class="contact-icon-container">
+                <i class="fa-brands fa-github contact-icon"></i>
+            </div>
+            <p><a target="_blank" href="https://github.com/Nithuach" rel="noopener">GitHub</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>&copy; 2025 Portfolio.</p>
+    <a href="#" id="scrollUp" class="scroll-up" title="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
